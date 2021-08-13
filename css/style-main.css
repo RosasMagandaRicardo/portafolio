@@ -1,0 +1,435 @@
+  i.fa.fa-share-alt-square {
+    color: #fff !important;
+  } 
+  .mfp-title {
+    text-align: center;
+    padding: 6px 0;
+  }
+  
+  p,
+  ul,
+  li,
+  ol {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+  }
+  h1 h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Oswald", sans-serif !important;
+  }
+  .no-margin {
+    margin: 0px;
+  }
+  .no-padding {
+    padding: 0px;
+  }
+  .bg-color-left {
+    background: #f7f7f7;
+  }
+  .bg-color-right {
+    background: #1c1b1f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bg-color-right ul{
+    padding: 0;
+  }
+  .bg-color-1 {
+    background: #fff0;
+  }
+  .left-name h2 {
+    text-transform: uppercase;
+    font-size: 54px;
+    font-weight: 700;
+    color: #383838;
+    font-weight: 800;
+    font-family: "Oswald", sans-serif !important;
+  }
+  .left-name h2 span {
+    color: #ffc107;
+  }
+  .left-name{
+    padding: 27px;
+  }
+  .left-name.bg-color-1 h5 {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 7px 16px;
+    margin: 10px 0px 20px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #ffc107;
+  }
+  .left-name p {
+    color: #383838;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  .left-address li {
+    list-style: none;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #383838;
+    font-size: 14px;
+  }
+  .text-color {
+    color: #ffc107;
+  }
+
+  .right-skills:after {
+    bottom: 0px;
+  }
+  
+  .right-skills:before {
+    top: 0px;
+  }
+  .left-address span {
+    width: 84px;
+    display: inline-block;
+    text-transform: uppercase;
+  }
+  .ex-heading h2 {
+    background: #ffc107;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 5px;
+    padding: 6px 27px;
+    font-size: 25px;
+  }
+  .ex-box h2 {
+    background: #ffc107;
+    color: #fff;
+    font-size: 17px;
+    padding: 5px;
+    font-weight: 600 !important;
+    letter-spacing: 1px;
+  }
+  .ex-box {
+    padding: 15px 30px;
+  }
+  .ex-box h4 {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 5px;
+  }
+  .ex-box p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #545454;
+  }
+  .top-skills {
+    text-align: center;
+    padding: 40px;
+  }
+  .progress {
+    height: 8px;
+    margin-top: 10px;
+  }
+  .right-skills {
+    padding: 15px 1vw;
+    position: relative;
+    width: 100%;
+  }
+  .heading-skills h3 {
+    color: #fff;
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding-bottom: 14px;
+    padding-top: 14px;
+  }
+  .right-skills h4 {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 22px;
+  }
+  .mt-25 {
+    margin-top: 25px;
+  }
+  .intetst-box i.fa {
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+  }
+  .intetst-icons {
+    color: #fff;
+    text-align: center;
+    margin: 20px 12px;
+  }
+  .intetst-icons h5 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: white;
+  }
+  .eduction-right {
+    display: inline-block;
+    padding: 35px 35px 35px 35px;
+  }
+  .eduction-right .ex-box {
+    padding: 27px 27px 0px 0px;
+  }
+  .eduction-right h3 {
+    padding-bottom: 0px;
+  }
+  .eduction-right .ex-box h4 {
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 400;
+  }
+  .eduction-right .ex-box p {
+    color: #fff;
+    font-weight: 400;
+  }
+  .qr-box {
+    background: #ffc107;
+    padding: 20px;
+  }
+  .carttitle-wrapper {
+    width: auto;/*1140px;*/
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 100%;
+  }
+  .address-right-box i.fa {
+    margin-right: 15px;
+    color: #ffc107;
+    font-size: 20px;
+  }
+  .col-md-6.no-padding.bg-color-left {
+    /*padding-bottom: 30px;*/
+    padding: 0;
+
+  }
+  .skill-name ul li {
+    list-style: none;
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background: #fff;
+    border-radius: 50%;
+  }
+  .sn {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    width: 68px;
+    height: 68px;
+    border: 5px solid #ffc107;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 8px;
+  }
+  .top-skills {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    width: 451px;
+  }
+  .skill-name {
+    margin-right: 22px;
+  }
+  .color-box {
+    position: absolute;
+    top: 68px;
+  }
+  button.setting-icon {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 2px;
+    background: #ffc107;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+  .color-box {
+    width: 31px;
+    margin-left: -55px;
+    transition: all ease 1s;
+    top: 173px;
+    z-index: 99;
+  }
+  .color-box .btn-style {
+    opacity: 0;
+  }
+  .color-box.main .btn-style {
+    opacity: 1;
+  }
+  .color-box.main {
+    margin-left: -44px;
+  }
+  /* color scheeme */
+  button#yellow-color {
+    background: #ffc107;
+    border: 2px solid white;
+  }
+  button#red-color {
+    background: #cf455c;
+    border: 2px solid white;
+  }
+  button#blue-color {
+    background: blue;
+    border: 2px solid white;
+  }
+  button#green-color {
+    background: green;
+    border: 2px solid white;
+  }
+  .btn-style {
+    border: 0;
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* yellow color */
+  #yellow .left-name h2 span {
+    color: #ffc107;
+  }
+  #yellow .bg-warning {
+    background-color: #ffc107 !important;
+  }
+  #yellow .sn {
+    border: 5px solid #ffc107;
+  }
+  #yellow .address-right-box i.fa {
+    color: #ffc107;
+  }
+  #yellow .qr-box {
+    background: #ffc107;
+  }
+  #yellow .ex-box h2 {
+    background: #ffc107;
+    color: #383838;
+  }
+  #yellow .ex-heading h2 {
+    background: #ffc107;
+    color: #383838;
+  }
+  #yellow .right-skills:after,
+  #yellow .right-skills:before {
+    background: #ffc107;
+  }
+  #yellow .text-color {
+    color: #ffc107;
+  }
+  #yellow .left-name h2 span {
+    color: #ffc107;
+  }
+  #yellow .left-name.bg-color-1 h5 {
+    color: #fff;
+    background-color: #ffc107;
+  }
+  #red .left-name h2 span {
+    color: #cf455c;
+  }
+  #red .bg-warning {
+    background-color: #cf455c !important;
+  }
+  #red .sn {
+    border: 5px solid #cf455c;
+  }
+  #red .address-right-box i.fa {
+    color: #cf455c;
+  }
+  #red .qr-box {
+    background: #cf455c;
+  }
+  #red .ex-box h2 {
+    background: #cf455c;
+    color: #fdf9f9;
+  }
+  #red .ex-heading h2 {
+    background: #cf455c;
+    color: #f9f9f9;
+  }
+  #red .text-color {
+    color: #cf455c;
+  }
+  #red .left-name h2 span {
+    color: #cf455c;
+  }
+  #red .left-name.bg-color-1 h5 {
+    color: #fff;
+    background-color: #cf455c;
+  }
+  #blue .left-name h2 span {
+    color: #cf455c;
+  }
+  #blue .bg-warning {
+    background-color: blue !important;
+  }
+  #blue .sn {
+    border: 5px solid blue;
+  }
+  #blue .address-right-box i.fa {
+    color: blue;
+  }
+  #blue .qr-box {
+    background: blue;
+  }
+  #blue .ex-box h2 {
+    background: blue;
+    color: #fff;
+  }
+  #blue .ex-heading h2 {
+    background: blue;
+    color: #fff;
+  }
+  #blue .text-color {
+    color: blue;
+  }
+  #blue .left-name h2 span {
+    color: blue;
+  }
+  #blue .left-name.bg-color-1 h5 {
+    color: #fff;
+    background-color: blue;
+  }
+  #green .left-name h2 span {
+    color: green;
+  }
+  #green .bg-warning {
+    background-color: green !important;
+  }
+  #green .sn {
+    border: 5px solid green;
+  }
+  #green .address-right-box i.fa {
+    color: green;
+  }
+  #green .qr-box {
+    background: green;
+  }
+  #green .ex-box h2 {
+    background: green;
+    color: #fff;
+  }
+  #green .ex-heading h2 {
+    background: green;
+    color: #fff;
+  }
+  #green .text-color {
+    color: green;
+  }
+  #green.left-name h2 span {
+    color: green;
+  }
+  #green .left-name.bg-color-1 h5 {
+    color: #fff;
+    background-color: green;
+  }
+
+  .no-padding {
+    padding: 0px;
+  }
