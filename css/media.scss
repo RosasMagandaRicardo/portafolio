@@ -1,0 +1,159 @@
+$primary-color: #ffc633;
+$white-primary-color: #f6ce68;
+@media (max-width: 750px) {
+    @mixin flex-display {
+        display: flex;
+        justify-content: center;
+    }
+    #logo,
+    .social-icons-container {
+        display: flow-root !important;
+        & .social-icons.main {
+            top: 35px;
+            left: -12px;
+            & li {
+                float: right !important;
+                padding: 3px !important;
+                padding-right: 0 !important;
+            }
+        }
+    }
+    & .social-icons li {
+        margin-right: 0 !important;
+    }
+    .container-mine {
+        background-repeat: repeat-y;
+    }
+    #content {
+        @include flex-display;
+        flex-direction: column;
+        margin: 2rem 1rem;
+    }
+    #profile {
+        @include flex-display;
+        flex-direction: column !important;
+        align-items: center;
+        justify-content: space-between;
+        width: auto;
+        overflow: hidden;
+        background-color: $primary-color;
+        & .about {
+            @include flex-display;
+            flex-direction: column !important;
+            width: auto;
+            align-items: center;
+            padding: 0.5rem;
+            & .photo-inner {
+                margin: 1rem;
+            }
+            & .info-inner {
+                @include flex-display;
+                flex-direction: column;
+                align-items: center;
+                & h3 {
+                    font-weight: 700;
+                }
+                & p {
+                    padding: 0.8rem !important;
+                    margin: 0;
+                    text-align: justify;
+                }
+            }
+            & h1,
+            h3 {
+                font-size: 23px;
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+            & p {
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+        }
+        & .personal-info {
+            & ul {
+                @include flex-display;
+                flex-direction: column;
+                padding: 0.8rem !important;
+                margin-bottom: 0 !important;
+                list-style: none;
+                & li {
+                    line-height: 20px;
+                    font-size: 15px;
+                    overflow: hidden;
+                    & span {
+                        border-radius: 3px;
+                        text-transform: uppercase;
+                        font-family: "Roboto Condensed", sans-serif;
+                    }
+                    & p {
+                        font-family: "Roboto Condensed", sans-serif;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+    .menu {
+        display: none;
+    }
+    .btns-flotantes {
+        & .menu-dos {
+            visibility: visible;
+            bottom: 7rem;
+            right: 5.5rem;
+            background-color: none;
+            & .tabs {
+                flex-direction: column !important;
+                & li {
+                    padding: 0.3rem !important;
+                    & a {
+                        padding-top: 0.5rem;
+                        width: 70px !important;
+                        box-shadow: none !important;
+                        color: black !important;
+                        box-shadow: 5px 8px 25px 9px rgba(0, 0, 0, 0.64) !important;
+                        & i {
+                            display: flex !important;
+                            justify-content: center !important;
+                        }
+                    }
+                    & a.active {
+                        background-color: transparent !important;
+                        color: #3369ff !important;
+                    }
+                }
+                & li:first-child {
+                    & a:first-child {
+                        box-shadow: 5px 8px 25px 9px rgba(0, 0, 0, 0.64) !important;
+                        background-color: transparent !important;
+                    }
+                }
+            }
+        }
+    }
+    .btn-flotante {
+        visibility: visible;
+        font-size: 14px;
+        padding: 10px 18px;
+        bottom: 20px;
+        right: 20px;
+        width: 4.1rem;
+        background-color: transparent !important;
+    }
+    #resumen {
+        /*margin-top: 1.5rem;*/
+        & .color-box {
+            display: none;
+        }
+    }
+    .lista {
+        flex-direction: column;
+        & .portfolio-list {
+            width: 100% !important;
+            & .webdesign .folio h2 {
+                font-size: 1.4rem !important;
+            }
+        }
+    }
+}
