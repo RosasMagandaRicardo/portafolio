@@ -1,5 +1,4 @@
-$primary-color: #ffc633;
-$white-primary-color: #f6ce68;
+$primary-color: #ffe971;
 @media (max-width: 750px) {
     @mixin flex-display {
         display: flex;
@@ -155,5 +154,8 @@ $white-primary-color: #f6ce68;
                 font-size: 1.4rem !important;
             }
         }
+    }
+    .intetst-box {
+        width: auto !important;
     }
 }

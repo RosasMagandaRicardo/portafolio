@@ -100,7 +100,7 @@ jQuery(document).ready(function() {
 	/* ---------------------------------------------------------------------- */
 
     // Needed variables
-    var $content = $('#content');
+    var $content = $("#content");
 
     // Run easytabs
     $content.easytabs({
@@ -109,9 +109,10 @@ jQuery(document).ready(function() {
         transitionIn: 'slideDown',
         transitionOut: 'slideUp',
         animationSpeed: 600,
-        tabs: '.tmenu',
+        tabs: ".tmenu",
         tabActiveClass: 'active',
     });
+
 
     // Hover menu effect
     $content.find('.menu .tabs li a').hover(

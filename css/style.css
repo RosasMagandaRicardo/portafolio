@@ -5,16 +5,23 @@
 }
 
 :root {
-    --main-color: #ffc633;
+    --main-color: #ffe971;
+    /*#ffc633;*/
     /*#123db3;*/
-    --menu-color: #b38000;
+    --menu-color: #B3A13D;
+    /*#b38000;*/
     /*3369ff*/
     --shadow-color: #b38000;
     /*4d7cff*/
-    --body-color: rgba(18, 61, 179, 0.7);
+    --body-color: rgba(124, 112, 255, .7);
+    /*rgba(18, 61, 179, 0.7);*/
     /*rgba(179, 128, 0, 0.7);*/
     --text-color: black;
     /*ffc633*/
+}
+
+a {
+    text-decoration: none !important;
 }
 
 a,
@@ -151,6 +158,20 @@ body {
     width: 100%;
 }
 
+.webdesign p {
+    font-weight: 700;
+    font-family: "Roboto Condensed", Sans-serif;
+    margin-bottom: 0 !important;
+}
+
+.webdesign h2 {
+    margin-bottom: 0 !important;
+}
+
+.webdesign:hover .desc-proyecto {
+    visibility: visible;
+}
+
 .webdesign .isotope-item {
     background-color: #000;
 }
@@ -204,12 +225,12 @@ ul.social-icons.main {
     font-size: 18px;
     display: block;
     padding: 1px 8px;
-    background-color: var(--main-color);
+    background-color: var(--menu-color);
     color: #fff;
 }
 
 .social-icons li a:hover {
-    color: #3369FF;
+    color: var(--main-color) !important;
 }
 
 .social-icons li:last-child {
@@ -230,14 +251,14 @@ ul.social-icons.main {
     height: 35px;
     line-height: 15px;
     border: none;
-    background-color: var(--main-color);
+    background-color: var(--menu-color);
     cursor: pointer;
     color: #fff;
     font-size: 20px;
 }
 
 .pulse-button:hover {
-    color: #3369FF;
+    color: var(--main-color);
 }
 
 .btns-flotantes {
@@ -330,11 +351,19 @@ ul.social-icons.main {
     /*background: url(/img/tab-hover.png) no-repeat;*/
     background-color: var(--main-color);
     box-shadow: 0 0 15px 1px black;
-    color: #3369FF;
+    color: #362bb3;
+    /*#3369FF;*/
 }
 
 a.tab-profile.active i {
     animation: bounce 1.5s infinite;
+}
+
+.tmenu.active i {
+    animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    -moz-animation: bounce 2s infinite;
+    -o-animation: bounce 2s infinite;
 }
 
 @keyframes bounce {

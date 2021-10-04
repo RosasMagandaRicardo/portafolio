@@ -52,7 +52,7 @@
             justify-content: space-between;
     width: auto;
     overflow: hidden;
-    background-color: #ffc633;
+    background-color: #ffe971;
   }
   #profile .about {
     display: -webkit-box;
@@ -206,6 +206,9 @@
   }
   .lista .portfolio-list .webdesign .folio h2 {
     font-size: 1.4rem !important;
+  }
+  .intetst-box {
+    width: auto !important;
   }
 }
 /*# sourceMappingURL=media.css.map */
