@@ -34,6 +34,18 @@
 <body>
     <section class="container">
         <header>
+            <nav class="idiomas">
+                <div class="buttons">
+                    <button class="translate" id="es">
+              <img src="flagmex.png" alt="Idioma español" />
+              <span class="lang" key="idio1">ESPAÑOL</span>
+            </button>
+                    <button class="translate" id="en">
+              <img src="flagusa.png" alt="Idioma inglés" />
+              <span class="lang" key="idio2">INGLÉS</span>
+            </button>
+                </div>
+            </nav>
             <div id="logo">
                 <h1>Ricardo Rosas Maganda</h1>
                 <h3>Front End Developer</h3>
@@ -70,7 +82,7 @@
                         <h1>Rosas Maganda Ricardo</h1>
                         <h3>Front End Developer</h3>
                         <br />
-                        <p>
+                        <p class="lang" key="prueba1">
                             ¡Hola! Me llamo Ricardo, soy un entusiasta de la programación web por parte de las tecnologías Front End. Me gusta colaborar en equipo para seguir aprendiendo y poder desarrollar sistemas eficientes a través de código limpio y reutilizable.
                         </p>
                     </div>
@@ -78,24 +90,28 @@
                 <div class="personal-info">
                     <ul>
                         <li>
-                            <span>Nombre: </span>
+                            <span class="lang" key="nombre">Nombre: </span>
                             <p>Rosas Maganda Ricardo</p>
                         </li>
                         <li>
-                            <span>Carrera: </span>
-                            <p>Ingeniería en Sistemas Computacionales</p>
+                            <span class="lang" key="carrera">Carrera: </span>
+                            <p class="lang" key="carrerav">
+                                Ingeniería en Sistemas Computacionales
+                            </p>
                         </li>
                         <li>
-                            <span>Nacimiento: </span>
-                            <p>24 de Junio de 1997 (24 Años)</p>
+                            <span class="lang" key="nacimiento">Nacimiento: </span>
+                            <p class="lang" key="nacimientov">
+                                24 de Junio de 1997 (24 Años)
+                            </p>
                         </li>
                         <li>
-                            <span>Residencia: </span>
+                            <span class="lang" key="residencia">Residencia: </span>
                             <p>OAXACA DE JUÁREZ, OAXACA / MÉXICO</p>
                         </li>
 
                         <li>
-                            <span>Correo: </span>
+                            <span class="lang" key="correo">Correo: </span>
                             <p>
                                 <a href="mailto:ichy_wero@hotmail.com?Subject=Hola%20Ricardo!,%20revisé%20tu%20CV">
                     ichy_wero@hotmail.com</a
@@ -104,7 +120,7 @@
               </li>
 
               <li>
-                <span>Teléfono: </span>
+                <span class="lang" key="telefono">Teléfono: </span>
                 <p>(+52) 951-217-21-85</p>
                 <p><a href="tel:+529512172185"> LLAMAR</a></p>
                             <p>
@@ -119,19 +135,19 @@
                 <ul class="tabs">
                     <li class="tmenu">
                         <a href="#profile" class="tab-profile active"><i class="fa fa-user"></i>
-                PERFÍL
+                PROFILE
               </a>
                     </li>
 
                     <li class="tmenu">
                         <a href="#resumen"><i class="fa fa-file"></i>
-                RESUMEN
+                ABOUT
               </a>
                     </li>
 
                     <li class="tmenu">
                         <a href="#portafolio"><i class="fa fa-briefcase"></i>
-                PORTAFOLIO
+                PORTFOLIO
               </a>
                     </li>
                 </ul>
@@ -173,51 +189,61 @@
                                         <div class="left-name bg-color-1">
                                             <h2>Ricardo <span class="text-color">Rosas</span></h2>
                                             <h5>Front End Developer</h5>
-                                            <p>
+                                            <p class="lang" key="prueba2">
                                                 Soy de mente abierta y metas claras. Gran capacidad para realizar trabajos individuales y en equipo con el afán de alcanzar los mejores resultados mediante la comunicación. Me gustan los retos y siempre busco ser mejor tanto personal como laboralmente.
                                             </p>
                                         </div>
                                         <!--EDUCACIÓN-->
                                         <div class="ex-heading">
-                                            <h2>FORMACIÓN ACADÉMICA</h2>
+                                            <h2 class="lang" key="formacion">
+                                                FORMACIÓN ACADÉMICA
+                                            </h2>
                                         </div>
                                         <div class="ex-box">
-                                            <h2>Universidad 2015-2021</h2>
+                                            <h2 class="lang" key="formacion1">
+                                                Universidad 2015-2021
+                                            </h2>
                                             <h4>Instituto Tecnológico de Oaxaca (ITO)</h4>
-                                            <p>
+                                            <p class="lang" key="formacion1e">
                                                 Especialidad: Ingenería de Software con Tecnologías emergentes
                                             </p>
                                         </div>
                                         <div class="ex-box">
-                                            <h2>Bachillerato Tecnológico 2012-2015</h2>
+                                            <h2 class="lang" key="formacion2">
+                                                Bachillerato Tecnológico 2012-2015
+                                            </h2>
                                             <h4>
                                                 Centro de Bachillerato Tecnológico, Industrial y de Servicios No. 123 (CBTIS 123)
                                             </h4>
-                                            <p>Especialidad: Programación</p>
+                                            <p class="lang" key="formacion2e">
+                                                Especialidad: Programación
+                                            </p>
                                         </div>
                                         <!--END EDUCACIÓN-->
                                         <!--EXPERIENCIA-->
                                         <div class="ex-heading">
-                                            <h2>EXPERIENCIA LABORAL</h2>
+                                            <h2 class="lang" key="exp">EXPERIENCIA LABORAL</h2>
                                         </div>
                                         <div class="ex-box">
-                                            <h2>Residencia Profesional 2020-2021</h2>
+                                            <h2 class="lang" key="res">
+                                                Residencia Profesional 2020-2021
+                                            </h2>
                                             <h4>
                                                 Instituto Estatal de Educación Pública de Oaxaca (IEEPO) / Dirección de Tecnologías Educativas
                                             </h4>
-                                            <p>
+                                            <p class="lang" key="resv">
                                                 Planeación, Diseño y Elaboración del Proyecto "D6, prototipo de aplicación móvil con realidad aumentada para el apoyo en la formación temprana de estudiantes de educación preescolar del jardín de niños Juán Ruíz de Alarcón."
                                             </p>
                                         </div>
                                         <!--END EXPERIENCIA-->
                                         <!--CERTIFICADOS-->
                                         <div class="ex-heading">
-                                            <h2>CERTIFICADOS</h2>
+                                            <h2 class="lang" key="cer">CERTIFICADOS</h2>
                                         </div>
                                         <div class="ex-box">
                                             <h2>Remote Work and Virtual Collaboration</h2>
                                             <h4>
-                                                <a href="https://certificates.easy-lms.com/exam/session/56ee9b53-d22b-4b57-88ba-875d5005b6fa" target="_blank">CERTIFICADO</a
+                                                <a href="https://certificates.easy-lms.com/exam/session/56ee9b53-d22b-4b57-88ba-875d5005b6fa" target="_blank" class="lang" key="cerv">CERTIFICADO</a
                           >
                         </h4>
                       </div>
@@ -227,6 +253,8 @@
                           <a
                             href="https://www.freecodecamp.org/espanol/certification/fcc6ba194ce-a575-4de4-bb15-f9196ea872d2/responsive-web-design"
                             target="_blank"
+                            class="lang"
+                            key="cerv"
                             >CERTIFICADO</a
                           >
                         </h4>
@@ -237,12 +265,14 @@
                       <div class="right-skills">
                         <div class="row no-margin">
                           <div class="col-md-12 heading-skills no-padding">
-                            <h3>IDIOMAS</h3>
+                            <h3 class="lang" key="idiomas">IDIOMAS</h3>
                           </div>
                         </div>
                         <div class="row no-margin mt-25">
                           <div class="col-md-5 no-padding">
-                            <h4>ESPAÑOL (NATIVO)</h4>
+                            <h4 class="lang" key="idiomas1">
+                              ESPAÑOL (NATIVO)
+                            </h4>
                           </div>
                           <div class="col-md-7 no-padding">
                             <div class="progress">
@@ -263,7 +293,7 @@
                         </div>
                         <div class="row no-margin mt-25">
                           <div class="col-md-5 no-padding">
-                            <h4>INGLÉS(B2)</h4>
+                            <h4 class="lang" key="idiomas2">INGLÉS(B2)</h4>
                           </div>
                           <div class="col-md-7 no-padding">
                             <div class="progress">
@@ -284,7 +314,9 @@
                         </div>
                         <div class="row no-margin">
                           <div class="col-md-12 heading-skills no-padding">
-                            <h3>LENGUAJES DE PROGRAMACIÓN</h3>
+                            <h3 class="lang" key="lengp">
+                              LENGUAJES DE PROGRAMACIÓN
+                            </h3>
                           </div>
                         </div>
                         <div class="row no-margin mt-25">
@@ -373,7 +405,7 @@
                         </div>
                         <div class="row no-margin">
                           <div class="col-md-12 heading-skills no-padding">
-                            <h3>BASES DE DATOS</h3>
+                            <h3 class="lang" key="db">BASES DE DATOS</h3>
                           </div>
                         </div>
                         <div class="row no-margin mt-25">
@@ -420,7 +452,9 @@
                         </div>
                         <div class="row no-margin">
                           <div class="col-md-12 heading-skills no-padding">
-                            <h3>FRAMEWORKS Y LIBRERÍAS</h3>
+                            <h3 class="lang" key="frame">
+                              FRAMEWORKS Y LIBRERÍAS
+                            </h3>
                           </div>
                         </div>
                         <div class="row no-margin mt-25">
@@ -510,7 +544,7 @@
 
                         <div class="row no-margin">
                           <div class="col-md-12 heading-skills no-padding">
-                            <h3>OTRAS TECNOLOGÍAS</h3>
+                            <h3 class="lang" key="ot">OTRAS TECNOLOGÍAS</h3>
                           </div>
                         </div>
                         <div class="row no-margin mt-25">
@@ -703,15 +737,15 @@
                           </div>
                         </div>
                         <!--INICIO DE PARTE INTERESES-->
-                        <div class="row no-margin" id=#intereses>
+                        <div class="row no-margin" id="#intereses">
                           <div class="col-md-12 heading-skills no-padding">
-                            <h3>INTERESES</h3>
+                            <h3 class="lang" key="int">INTERESES</h3>
                           </div>
                           <div class="col-md-4 intetst-box">
                             <div class="intetst-icons">
                               <i class="fa fa-plane">
                                 <br /><br />
-                                <h5>VIAJAR</h5>
+                                <h5 class="lang" key="intv1">VIAJAR</h5>
                               </i>
                             </div>
                           </div>
@@ -719,7 +753,7 @@
                             <div class="intetst-icons">
                               <i class="fa fa-headphones">
                                 <br /><br />
-                                <h5>MÚSICA</h5>
+                                <h5 class="lang" key="intv2">MÚSICA</h5>
                               </i>
                             </div>
                           </div>
@@ -727,7 +761,7 @@
                             <div class="intetst-icons">
                               <i class="fa fa-walking">
                                 <br /><br />
-                                <h5>CAMINAR</h5>
+                                <h5 class="lang" key="intv3">CAMINAR</h5>
                               </i>
                             </div>
                           </div>
@@ -735,7 +769,7 @@
                             <div class="intetst-icons">
                               <i class="fa fa-dumbbell">
                                 <br /><br />
-                                <h5>EJERCICIO</h5>
+                                <h5 class="lang" key="intv4">EJERCICIO</h5>
                               </i>
                             </div>
                           </div>
@@ -743,7 +777,7 @@
                             <div class="intetst-icons">
                               <i class="fa fa-gamepad">
                                 <br /><br />
-                                <h5>VIDEOJUEGOS</h5>
+                                <h5 class="lang" key="intv5">VIDEOJUEGOS</h5>
                               </i>
                             </div>
                           </div>
@@ -751,7 +785,7 @@
                             <div class="intetst-icons">
                               <i class="fa fa-palette">
                                 <br /><br />
-                                <h5>PINTURA</h5>
+                                <h5 class="lang" key="intv6">PINTURA</h5>
                               </i>
                             </div>
                           </div>
@@ -759,7 +793,7 @@
                             <div class="intetst-icons">
                               <i class="fa fa-cat">
                                 <br /><br />
-                                <h5>GATOS</h5>
+                                <h5 class="lang" key="intv7">GATOS</h5>
                               </i>
                             </div>
                           </div>
@@ -778,15 +812,22 @@
           <nav class="searching">
             <ul class="cats-filter" id="portfolio-filter">
               <li>
-                <a href="" class="current transition" data-filter="*">Todos</a>
-                                                </li>
-                                                <li>
-                                                    <a href="" class="transition" data-filter=".webdesign">Web Design</a
+                <a
+                  href=""
+                  class="lang current transition"
+                  data-filter="*"
+                  key="todos"
+                  >Todos</a
+                >
+              </li>
+              <li>
+                <a href="" class="transition" data-filter=".webdesign"
+                  >Web Design</a
                 >
               </li>
             </ul>
           </nav>
-          <div class="extra-text">
+          <div class="extra-text lang" key="todosdes">
             Algunos de los proyectos en los que he trabajado
           </div>
 
@@ -799,10 +840,11 @@
                   target="_blank"
                 >
                   <img src="./img/proyecto1.png" alt="Proyecto1" />
-                  <h2 class="title">Sitio Web NOVAPROS</h2>
-                  <p>
-                    Sitio web para productos elaborados por la empresa "NOVAPROS"
-                </p>
+                  <h2 class="title lang" key="proy1">Sitio Web NOVAPROS</h2>
+                  <p class="lang" key="proy1d">
+                    Sitio web para productos elaborados por la empresa
+                    "NOVAPROS"
+                  </p>
                   <span class="category">HTML / CSS / JS</span>
                 </a>
                                         </div>
@@ -811,8 +853,8 @@
                                         <div class="webdesign">
                                             <a href="https://raul-rosas-ortega.netlify.app/" class="folio" target="_blank">
                                                 <img src="./img/proyecto2.png" alt="Proyecto2" />
-                                                <h2 class="title">Tarjeta Virtual</h2>
-                                                <p>
+                                                <h2 class="title lang" key="proy2">Tarjeta Virtual</h2>
+                                                <p class="lang" key="proy2d">
                                                     Elaboración de una tarjeta virtual para agente de seguros
                                                 </p>
                                                 <span class="category">HTML / SCSS / JS</span>
@@ -823,8 +865,8 @@
                                         <div class="webdesign">
                                             <a href="https://rosas-calculadora-pwa.netlify.app/ " class="folio" target="_blank ">
                                                 <img src="./img/proyecto3.png " alt="Proyecto3 " />
-                                                <h2 class="title">Calculadora PWA</h2>
-                                                <p>
+                                                <h2 class="title lang" key="proy3">Calculadora PWA</h2>
+                                                <p class="lang" key="proy3d">
                                                     PWA de operaciones sencillas entre dos números
                                                 </p>
                                                 <span class="category">REACT / HTML / CSS / JS</span>
@@ -849,7 +891,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/1.5.25/jquery.isotope.min.js "></script>
     <!--Caroufredsel-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.caroufredsel/6.1.0/jquery.carouFredSel.packed.js "></script>
+    <!--MORE JQUERY SCRIPTS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/d3js/7.0.0/d3.min.js"></script>
     <!--SCRIPTS-->
+    <script src="js/script.js "></script>
     <script src="js/main.js "></script>
 </body>
 
