@@ -9,6 +9,8 @@
         "residencia": "residencia:",
         "correo": "correo:",
         "telefono": "teléfono:",
+        "llamar": "llamar",
+        "whats": "enviar whatsapp",
         "prueba2": "Soy de mente abierta y metas claras. Gran capacidad para realizar trabajos individuales y en equipo con el afán de alcanzar los mejores resultados mediante la comunicación. Me gustan los retos y siempre busco ser mejor tanto personal como laboralmente.",
         "formacion": "FORMACIÓN ACADÉMICA",
         "formacion1": "Universidad 2015-2021",
@@ -43,6 +45,8 @@
         "proy2d": "Elaboración de una tarjeta virtual para agente de seguros",
         "proy3": "Calculadora PWA",
         "proy3d": "PWA de operaciones sencillas entre dos números",
+        "proy4": "API Pokedex",
+        "proy4d": "Consumo API para información de pokemon",
         "idio1": "ESPAÑOL",
         "idio2": "INGLÉS"
     },
@@ -56,6 +60,8 @@
         "residencia": "nationality:",
         "correo": "mail:",
         "telefono": "phone:",
+        "llamar": "make a call",
+        "whats": "send whatsapp",
         "prueba2": "I am open-minded and clear goals. Great ability to carry out individual and team work with the aim of achieving the best results through communication. I like challenges and I always seek to be better both personally and professionally.",
         "formacion": "EDUCATION",
         "formacion1": "Collage 2015-2021",
@@ -90,6 +96,8 @@
         "proy2d": "Development of a virtual card for insurance agent",
         "proy3": "PWA Calculator",
         "proy3d": "PWA of simple operations between two numbers",
+        "proy4": "API Pokedex",
+        "proy4d": "API for pokemon information",
         "idio1": "SPANISH",
         "idio2": "ENGLISH"
     }
